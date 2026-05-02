@@ -22,11 +22,11 @@ jobs:
           hugo-version: "0.134.3"
           extended: true
 
-      - name: Build website
-        run: hugo --minify
-
       # - name: Build website
-      #   run: hugo --minify --baseURL "https://kimthach123mai.github.io/AWS-Intern-Report/"
+      #   run: hugo --minify
+
+      - name: Build website
+        run: hugo --minify --baseURL "https://kimthach123mai.github.io/AWS-Intern-Report/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
