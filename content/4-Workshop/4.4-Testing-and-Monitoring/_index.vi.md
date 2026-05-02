@@ -1,20 +1,28 @@
 ---
-title : "Truy cập S3 từ môi trường truyền thống"
-date : 2024-01-01 
-weight : 4 
-chapter : false
-pre : " <b> 5.4. </b> "
+title: "Kiểm thử và Giám sát"
+date: 2026-05-01
+weight: 4
+chapter: false
+pre: "<b> 4.4. </b>"
 ---
 
-#### Tổng quan
+### Xác minh hệ thống
 
-+ Trong phần này, bạn sẽ tạo một Interface Endpoint để truy cập Amazon S3 từ môi trường truyền thống mô phỏng. Interface Endpoint sẽ cho phép bạn định tuyến đến Amazon S3 qua kết nối VPN từ môi trường truyền thống mô phỏng của bạn.
+Sau khi triển khai hạ tầng đám mây, một loạt các bài kiểm tra toàn diện được thực hiện để đảm bảo ứng dụng **Classic Groove** vận hành trơn tru trên tất cả các tầng dịch vụ của AWS.
 
-+ Tại sao nên sử dụng **Interface Endpoint**:
-    + Các Gateway endpoints chỉ hoạt động với các tài nguyên đang chạy trong VPC nơi chúng được tạo. Interface Endpoint  hoạt động với tài nguyên chạy trong VPC và cả tài nguyên chạy trong môi trường truyền thống. Khả năng kết nối từ môi trường truyền thống của bạn với aws cloud có thể được cung cấp bởi AWS Site-to-Site VPN hoặc AWS Direct Connect.
-    + Interface Endpoint cho phép bạn kết nối với các dịch vụ do AWS PrivateLink cung cấp. Các dịch vụ này bao gồm một số dịch vụ AWS, dịch vụ do các đối tác và khách hàng AWS lưu trữ trong VPC của riêng họ (gọi tắt là Dịch vụ PrivateLink endpoints) và các dịch vụ Đối tác AWS Marketplace. Đối với workshop này, chúng ta sẽ tập trung vào việc kết nối với Amazon S3.
-    
-![Interface endpoint architecture](/images/5-Workshop/5.4-S3-onprem/diagram3.png)
+#### 1. Kiểm thử chức năng toàn diện
+*   **Khả năng truy cập Web:** Xác minh cửa hàng có thể truy cập được thông qua Elastic IP và Public DNS trên các cổng web tiêu chuẩn.
+*   **Truyền phát đa phương tiện:** Xác nhận các bản nghe thử âm thanh chất lượng cao được cung cấp trực tiếp từ Amazon S3 mà không gặp lỗi trễ hay lỗi phân quyền.
+*   **Logic giao dịch:** Kiểm tra các thao tác CRUD (Thêm, Đọc, Sửa, Xóa) cho kho đĩa than và giỏ hàng, đảm bảo dữ liệu được lưu trữ bền vững trong Amazon RDS.
 
+#### 2. Kiểm tra Bảo mật và Kết nối
+*   **Cô lập cơ sở dữ liệu:** Xác nhận thực thể RDS không thể bị truy cập trực tiếp từ internet công cộng, bắt buộc phải thông qua máy chủ web EC2 làm trung gian.
+*   **Xác minh IAM:** Kiểm tra việc thực thể EC2 sử dụng các vai trò đã gán để giao tiếp với S3, loại bỏ hoàn toàn việc nhúng thông tin xác thực vào mã nguồn.
 
+#### 3. Giám sát vận hành
+*   **Sử dụng tài nguyên:** Theo dõi mức sử dụng CPU và bộ nhớ của thực thể `t3.micro` để đảm bảo tính ổn định khi mô phỏng lưu lượng truy cập cao.
+*   **Giám sát chi phí:** Thường xuyên kiểm tra AWS Billing Dashboard để đảm bảo chi phí duy trì ở mức ước tính khoảng **$5.81/tháng**.
 
+---
+
+> **Kết luận:** Giai đoạn kiểm thử xác nhận rằng việc tích hợp giữa các tầng tính toán, cơ sở dữ liệu và lưu trữ đã thành công, tạo ra một môi trường ổn định cho thị trường âm nhạc số.
