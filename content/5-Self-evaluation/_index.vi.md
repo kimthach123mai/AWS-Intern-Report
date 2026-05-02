@@ -1,40 +1,34 @@
 ---
 title: "Tự đánh giá"
-date: 2024-01-01
+date: 2026-05-02
 weight: 5
 chapter: false
-pre: " <b> 5. </b> "
+pre: "<b> 5. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ ngày **09/03/2026** đến ngày **02/05/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng những kiến thức nền tảng về điện toán đám mây vào môi trường làm việc chuyên nghiệp thực tế.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Tôi đã tham gia chương trình **First Cloud Journey (FCJ)**, tập trung vào việc triển khai hạ tầng và tối ưu hóa quy trình lưu trữ cho dự án **Classic Groove**. Qua đó, tôi không chỉ cải thiện kỹ năng kỹ thuật với các dịch vụ AWS (EC2, RDS, S3) mà còn rèn luyện được tư duy hệ thống và cách thức xây dựng tài liệu kỹ thuật bài bản trên GitHub.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Về tác phong, tôi luôn nỗ lực hoàn thành các cột mốc (milestones) đúng hạn và chủ động trao đổi với các thành viên trong cộng đồng FCJ để nâng cao chất lượng báo cáo. Tuy nhiên, tôi nhận thấy bản thân vẫn cần cải thiện thêm về tính kỷ luật tự giác và sự linh hoạt trong giao tiếp chuyên môn.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
-
-
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+| STT | Tiêu chí | Mô tả | Tốt | Khá | Trung bình |
+| --- | ----------------------------------- | ------------------------------------------------------------------------- | --- | --- | ---------- |
+| 1 | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về AWS, áp dụng thực tế vào Classic Groove, chất lượng bài làm | ✅ | ☐ | ☐ |
+| 2 | **Khả năng học hỏi** | Tiếp thu các khái niệm Cloud mới và quy trình tài liệu hóa | ☐ | ✅ | ☐ |
+| 3 | **Chủ động** | Tự tìm hiểu giải pháp cho các lỗi cấu hình hệ thống | ☐ | ✅ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Hoàn thành đầy đủ 7 phần báo cáo theo yêu cầu của chương trình | ✅ | ☐ | ☐ |
+| 5 | **Kỷ luật** | Tuân thủ giờ giấc làm việc và các quy định nội bộ của tổ chức | ☐ | ☐ | ✅ |
+| 6 | **Tính cầu tiến** | Sẵn sàng tiếp nhận phản hồi để chỉnh sửa và hoàn thiện báo cáo | ✅ | ☐ | ☐ |
+| 7 | **Giao tiếp** | Trình bày các vấn đề kỹ thuật và báo cáo tiến độ công việc | ☐ | ✅ | ☐ |
+| 8 | **Hợp tác nhóm** | Làm việc và tương tác hiệu quả với các thành viên FCJ trên GitHub | ☐ | ✅ | ☐ |
+| 9 | **Ứng xử chuyên nghiệp** | Tôn trọng đồng nghiệp, mentor và môi trường làm việc tại AWS | ✅ | ☐ | ☐ |
+| 10 | **Tư duy giải quyết vấn đề** | Nhận diện và đề xuất cách xử lý các sự cố kết nối hạ tầng | ☐ | ✅ | ☐ |
+| 11 | **Đóng góp vào dự án/tổ chức** | Xây dựng mẫu tài liệu triển khai chuẩn hóa và thực hiện tối ưu tài nguyên | ✅ | ☐ | ☐ |
+| 12 | **Tổng thể** | Đánh giá chung về toàn bộ hành trình First Cloud Journey | ☐ | ✅ | ☐ |
 
 ### Cần cải thiện
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+* **Nâng cao tính kỷ luật:** Cần rèn luyện khả năng tự quản lý thời gian khắt khe hơn và chấp hành tuyệt đối các quy trình vận hành của tổ chức để tối ưu hóa hiệu suất cá nhân.
+* **Tư duy giải quyết vấn đề:** Tiếp tục rèn luyện cách tiếp cận vấn đề từ gốc rễ, tránh phụ thuộc quá nhiều vào các hướng dẫn có sẵn mà cần hiểu rõ bản chất của các lỗi hệ thống.
+* **Kỹ năng giao tiếp chuyên nghiệp:** Học cách trình bày các vấn đề kỹ thuật một cách súc tích hơn, đồng thời cải thiện khả năng xử lý tình huống linh hoạt trong cả giao tiếp hàng ngày lẫn công việc chuyên môn.

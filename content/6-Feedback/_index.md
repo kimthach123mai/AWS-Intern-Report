@@ -1,47 +1,36 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-05-02
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: "<b> 6. </b>"
 ---
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Working Environment**
+The First Cloud Journey (FCJ) program offers a flexible Hybrid working model. This balance, supported by an online learning platform and comprehensive instructional videos on YouTube, allows for highly proactive self-study. The environment is built on openness, where interns are free to exchange ideas and seek support without hesitation. Notably, the FCJ Facebook community is a vibrant hub where members consistently assist one another beyond official hours, creating a strong professional bond. 
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+**2. Support from Mentor and Team Administration**
+The communication structure is highly efficient, utilizing a shared group for mentors and interns that facilitates rapid exchange and timely support. Mentors focus on guiding the thought process, helping interns navigate AWS documentation to find solutions independently. This approach, combined with the administrative team's readiness to provide necessary resources, ensures a smooth and productive internship experience.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**3. Relevance of Work to Academic Major**
+Deploying the 3-tier architecture for the **Classic Groove** project directly applies theoretical concepts from university courses such as Computer Networking and Database Management. Moving from local development to cloud services like **EC2, VPC, RDS, and S3** provides a holistic view of modern infrastructure. This experience effectively bridges the gap between academic theory and the practical demands of the global IT industry.
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+**4. Learning and Skill Development Opportunities**
+The internship significantly enhances technical skills while fostering professional competencies. Documenting the implementation process using Hugo and Markdown on GitHub has improved technical writing and version control skills. Challenges in system deployment and security configurations served as catalysts for better analytical thinking. Most importantly, the program instills a "Continuous Learning" mindset, which is vital in the fast-paced cloud landscape.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
-
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+**5. Company Culture and Team Spirit**
+The culture at AWS Vietnam and the FCJ program is rooted in mutual respect. Even as an intern, individual presence and contributions to technical discussions are valued and recognized. The collaborative spirit is evident as members support each other regardless of their specific roles, ensuring collective goals are met with integrity.
 
 ---
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Suggestions and Expectations
 
----
+**For the Educational Institution:**
+*   **Curriculum Integration:** It is suggested that the university includes more practical Cloud Computing modules in the official curriculum.
+*   **Industry Connection:** Expanding workshops or guest lectures with industry professionals would help students better understand real-world requirements before graduating.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+**For the Internship Program:**
+*   **Advanced Topics:** It would be beneficial to introduce basic concepts of **Infrastructure as Code (IaC)**, such as Terraform or CloudFormation, to keep up with industry trends.
+*   **Project Lifecycle:** Providing more opportunities to observe the early design or post-deployment monitoring phases would help interns understand the full lifecycle of a cloud solution.

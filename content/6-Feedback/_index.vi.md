@@ -1,44 +1,36 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+title: "Chia sẻ và Phản hồi"
+date: 2026-05-02
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: "<b> 6. </b>"
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+### Đánh giá Tổng quan
 
-### Đánh giá chung
+**1. Môi trường làm việc**
+Chương trình First Cloud Journey (FCJ) mang đến mô hình làm việc Hybrid linh hoạt. Sự kết hợp giữa hệ thống học tập trực tuyến và các video hướng dẫn chi tiết trên YouTube tạo điều kiện tối đa cho việc tự học và chủ động thời gian. Môi trường tại đây rất cởi mở, thực tập sinh có thể tự do trao đổi ý tưởng mà không ngại ngần. Đặc biệt, cộng đồng FCJ trên Facebook hoạt động rất tích cực, nơi các thành viên luôn sẵn sàng hỗ trợ nhau tận tình bất kể giờ giấc, tạo nên sự gắn kết chuyên môn bền chặt.
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**2. Sự hỗ trợ từ Mentor và Ban quản trị**
+Cấu trúc trao đổi thông qua group chung giữa Mentor và thực tập sinh giúp việc tương tác trở nên nhanh chóng và hiệu quả. Các Mentor luôn nhiệt tình giải đáp và định hướng cách tiếp cận vấn đề, giúp thực tập sinh rèn luyện kỹ năng đọc tài liệu và tự tìm giải pháp. Ban quản trị cũng luôn sát sao, hỗ trợ kịp thời các thủ tục và cung cấp đầy đủ tài nguyên cần thiết để quá trình thực tập diễn ra thuận lợi.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**3. Sự phù hợp của công việc với ngành học**
+Dự án triển khai kiến trúc 3 lớp cho dự án **Classic Groove** là cơ hội để áp dụng thực tế các lý thuyết về Mạng máy tính, Hệ điều hành và Cơ sở dữ liệu đã học tại trường. Việc chuyển đổi từ môi trường máy cục bộ sang các dịch vụ đám mây như **EC2, VPC, RDS và S3** mang lại cái nhìn thực tiễn về hạ tầng hiện đại. Trải nghiệm này giúp thu hẹp khoảng cách giữa sách vở và những yêu cầu thực tế của ngành IT.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**4. Cơ hội học tập và phát triển kỹ năng**
+Bên cạnh kiến thức chuyên môn về Cloud, kỳ thực tập còn giúp phát triển các kỹ năng nghề nghiệp quan trọng. Việc xây dựng tài liệu báo cáo bằng Hugo và Markdown trên GitHub đã cải thiện đáng kể kỹ năng viết lách kỹ thuật và quản lý mã nguồn. Những khó khăn khi cấu hình hệ thống và bảo mật chính là bài tập thực tế giúp nâng cao tư duy phân tích. Quan trọng nhất, chương trình đã hình thành tư duy "Tự học suốt đời" để thích nghi với sự thay đổi nhanh chóng của công nghệ.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**5. Văn hóa tổ chức và Tinh thần đồng đội**
+Văn hóa tại AWS Vietnam và chương trình FCJ đề cao sự tôn trọng lẫn nhau. Dù là thực tập sinh, ý kiến và đóng góp của mỗi cá nhân trong các buổi thảo luận kỹ thuật luôn được ghi nhận và coi trọng. Tinh thần đồng đội được thể hiện rõ qua cách các thành viên hỗ trợ nhau không phân biệt vai trò, cùng hướng tới mục tiêu hoàn thành tốt dự án chung.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+---
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+### Đề xuất và Kỳ vọng
 
+**Đối với Nhà trường:**
+*   **Cập nhật chương trình:** Hy vọng nhà trường có thể đưa thêm các học phần thực hành về Điện toán đám mây vào chương trình chính thức.
+*   **Gắn kết thực tế:** Tổ chức thêm các buổi hội thảo với chuyên gia từ doanh nghiệp để sinh viên sớm tiếp cận với các xu hướng công nghệ thực tế.
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
-
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+**Đối với Công ty và Chương trình thực tập:**
+*   **Mở rộng nội dung:** Có thể cân nhắc đưa thêm các khái niệm cơ bản về **Hạ tầng dưới dạng mã (IaC)** như Terraform hoặc CloudFormation để thực tập sinh bắt nhịp với xu hướng hiện nay.
+*   **Quan sát dự án:** Tạo điều kiện để thực tập sinh được quan sát thêm về các giai đoạn thiết kế ban đầu hoặc giám sát hệ thống sau khi triển khai để hiểu rõ hơn về vòng đời của một giải pháp Cloud.
