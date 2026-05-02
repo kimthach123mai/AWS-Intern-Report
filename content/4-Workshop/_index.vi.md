@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: 2024-01-01
-weight: 5
+weight: 4
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 4. </b> "
 ---
 
 {{% notice warning %}}
@@ -30,4 +30,3 @@ Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gat
 3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
 4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
 5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
