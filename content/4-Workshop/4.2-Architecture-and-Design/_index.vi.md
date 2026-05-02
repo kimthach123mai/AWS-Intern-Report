@@ -14,6 +14,8 @@ Hạ tầng của dự án **Classic Groove** được xây dựng dựa trên m
 *   **Tầng Cơ sở dữ liệu:** Sử dụng **Amazon RDS (MySQL)** để quản lý dữ liệu có cấu trúc, bao gồm thông tin tài khoản người dùng và danh mục đĩa than.
 *   **Tầng Lưu trữ:** Sử dụng **Amazon S3** để lưu trữ các tài sản truyền thông tĩnh và các tệp âm thanh chất lượng cao.
 
+![Architecture](/images/4.2-Architecture/architecture.png)
+
 ### Lựa chọn dịch vụ và Lý do
 
 Việc lựa chọn các dịch vụ dựa trên tiêu chí về độ tin cậy, khả năng quản lý và tối ưu hóa chi phí:

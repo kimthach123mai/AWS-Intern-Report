@@ -16,6 +16,8 @@ The **Classic Groove** infrastructure is built on a standard **3-Tier Architectu
 *   **Database Layer:** Utilizes **Amazon RDS (MySQL)** for structured data management, including user accounts and vinyl record inventory.
 *   **Storage Layer:** Employs **Amazon S3** for hosting static media assets and high-fidelity audio files.
 
+![Architecture](/images/4.2-Architecture/architecture.png)
+
 ### Service Selection & Rationale
 
 The selection of services is based on reliability, managed capabilities, and cost-efficiency:
