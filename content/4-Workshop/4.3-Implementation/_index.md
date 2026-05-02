@@ -1,18 +1,15 @@
 ---
-title : "Access S3 from VPC"
-date : 2024-01-01
-weight : 3
-chapter : false
-pre : " <b> 5.3. </b> "
+title: "Implementation"
+date: 2026-05-01
+weight: 3
+chapter: false
+pre: "<b> 4.3. </b>"
 ---
 
-#### Using Gateway endpoint
+### System Implementation Steps
 
-In this section, you will create **a Gateway eendpoint** to access **Amazon S3** from **an EC2 instance**. **The Gateway endpoint** will allow upload an object to S3 buckets without using **the Public Internet**. To create an endpoint, you must specify the VPC in which you want to create the endpoint, and the service (in this case, S3) to which you want to establish the connection.
+The deployment of the **Classic Groove** system is divided into two major phases: preparation and execution. This ensures all environment variables and security permissions are correctly aligned before the infrastructure is provisioned.
 
-![overview](/images/5-Workshop/5.3-S3-vpc/diagram2.png)
-
-#### Content
-
-- [Create gateway endpoint](3.1-create-gwe/)
-- [Test gateway endpoint](3.2-test-gwe/)
+#### Section Content
+1. [Prerequisites](4.3.1-Prerequisite/)
+2. [Step-by-step](4.3.2-Step-by-step/)
