@@ -1,18 +1,26 @@
 ---
-title : "Introduction"
-date : 2024-01-01 
-weight : 1 
-chapter : false
-pre : " <b> 5.1. </b> "
+title: "Project Format and Tools"
+date: 2026-05-01
+weight: 1
+chapter: false
+pre: "<b> 4.1. </b>"
 ---
 
-#### VPC endpoints
-+ **VPC endpoints** are virtual devices. They are horizontally scaled, redundant, and highly available VPC components. They allow communication between your compute resources and AWS services without imposing availability risks.
-+ Compute resources running in VPC can access  **Amazon S3**  using a Gateway endpoint. PrivateLink interface endpoints can be used by compute resources running in VPC or on-premises.
+### Project Format
 
-#### Workshop overview
-In this workshop, you will use two VPCs. 
-+ **"VPC Cloud"** is for cloud resources such as a  **Gateway endpoint** and an EC2 instance to test with. 
-+ **"VPC On-Prem"** simulates an on-premises environment such as a factory or corporate datacenter. An EC2 instance running strongSwan VPN software has been deployed in "VPC On-prem" and automatically configured to establish a Site-to-Site VPN tunnel with AWS Transit Gateway. This VPN simulates connectivity from an on-premises location to the AWS cloud. To minimize costs, only one VPN instance is provisioned to support this workshop. When planning VPN connectivity for your production workloads, AWS recommends using multiple VPN devices for high availability.
+The workshop is presented as a structured technical guide, following a step-by-step deployment methodology. The content is designed to provide a clear pathway for reproducing the **Classic Groove** cloud infrastructure on AWS. 
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+Adhering to professional documentation standards, the report is organized into logical sections: Overview, Architecture Design, Implementation, and Post-deployment Testing. To ensure global accessibility and technical clarity, the documentation is maintained in a bilingual format (English and Vietnamese).
+
+### Tools & Requirements
+
+The implementation utilizes a combination of cloud infrastructure and development tools to meet the project objectives:
+
+*   **Bilingual Documentation:** Integrated English and Vietnamese content for comprehensive understanding.
+*   **Structured Lifecycle:** A complete flow from Proposal and Worklog to technical Workshop and final Self-assessment.
+*   **Architectural Visualization:** Technical diagrams illustrating the interaction between the web tier and data storage layers.
+*   **Technical Artefacts:** Inclusion of SQL deployment scripts, PHP connection strings using SSL, and IAM policy configurations.
+*   **AWS Cloud Services:** Utilization of a multi-service architecture including:
+    *   **Amazon EC2:** Hosting the web application logic.
+    *   **Amazon RDS (MySQL):** Managed relational database for inventory and user data.
+    *   **Amazon S3:** Scalable object storage for high-fidelity audio assets and media.
