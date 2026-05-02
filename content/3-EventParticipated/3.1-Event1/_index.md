@@ -6,17 +6,19 @@ chapter: false
 pre: "<b> 3.1. </b>"
 ---
 
-# Báo cáo Tổng kết: "AWS First Cloud AI Journey Community Day 2026"
+# Summary Report: "AWS First Cloud AI Journey Community Day 2026"
 
-### Tổng quan Sự kiện
-- **Địa điểm:** Tầng 26, Bitexco Financial Tower – 02 Hải Triều, TP. Hồ Chí Minh.
-- **Thời gian:** Thứ Bảy, 21/03/2026 | 09:00 – 12:00.
-- **Mục tiêu:** Kết nối cộng đồng Cloud, khám phá các ứng dụng Generative AI trên AWS và kickoff chính thức chương trình **FCAJ Bootcamp 2026**.
+### Event Overview
+- **Location:** Floor 26, Bitexco Financial Tower – 02 Hai Trieu, Ho Chi Minh City.
+- **Time:** Saturday, March 21, 2026 | 09:00 AM – 12:00 PM.
+- **Objective:** Connecting the Cloud community, exploring Generative AI applications on AWS, and officially kicking off the **FCAJ Bootcamp 2026**.
 
 ![AWS Community Day 2026](/images/3-EventParticipated/AWS-FAJ.jpg)
 
-### Diễn giả
-Sự kiện có sự góp mặt của các chuyên gia đầu ngành:
+---
+
+### Speakers
+The event featured leading experts from the tech industry:
 - **Hai Bui** – Engineering Manager, GoTymeX.
 - **Phuc Dang** – Cloud Architect, GoTymeX.
 - **Phap Nguyen** – Cloud Architect, VPBank.
@@ -27,52 +29,52 @@ Sự kiện có sự góp mặt của các chuyên gia đầu ngành:
 
 ---
 
-### Các nội dung chính
+### Key Highlights
 
-#### 1. Platform Engineering & Định hướng nghề nghiệp
-- Giới thiệu về vai trò của Platform Engineering trong hệ sinh thái DevOps hiện đại.
-- Chia sẻ về văn hóa doanh nghiệp và cơ hội thực tập tại các công ty công nghệ lớn.
-- Định hướng lộ trình phát triển (career roadmap) cho sinh viên theo đuổi mảng Cloud.
+#### 1. Platform Engineering & Career Pathways
+- Introduction to the role of Platform Engineering in modern DevOps ecosystems.
+- Insights into corporate culture and internship opportunities at top tech firms.
+- Guidance on career roadmaps for students pursuing Cloud and DevOps.
 
 #### 2. GenAIOps Essential
-- Sự chuyển dịch từ DevOps truyền thống sang DevOps cho các ứng dụng AI (GenAIOps).
-- Thực hành triển khai thực tế với **Amazon Bedrock Agent**, **EKS**, và **Langfuse**.
-- Cách quản lý và giám sát (observability) các mô hình AI trong môi trường production.
+- Transitioning from traditional DevOps to DevOps for Generative AI (GenAIOps).
+- Practical implementation using **Amazon Bedrock Agent**, **EKS**, and **Langfuse**.
+- Observability and management of AI models in production environments.
 
-#### 3. Lập trình trong kỷ nguyên Agentic
-- Khám phá các AI Agent và tác động của chúng đến năng suất phát triển phần mềm.
-- Đi sâu vào các công cụ và "Productivity Playbook" để tối ưu hóa quy trình làm việc.
-- Demo thực tế về việc tự động hóa tạo mã và triển khai (deployment).
+#### 3. Shipping Code in the Agentic Era
+- Exploring AI Agents and their impact on software development productivity.
+- Deep dive into tools and "Productivity Playbooks" for developers to optimize workflow.
+- Real-world demo of autonomous code generation and deployment.
 
-#### 4. Multimodal GenAI & Nền tảng CloudFront
-- Xây dựng AI Application Stack mới với **Nova Embeddings** và **GraphRAG**.
-- Tăng cường hiệu suất, bảo mật và độ tin cậy cho hệ thống thông qua **Amazon CloudFront**.
-- Các chiến lược tối ưu hóa chi phí khi truyền tải dữ liệu từ Edge đến Origin.
-
----
-
-### Bài học rút ra & Ứng dụng vào công việc
-- **Tư duy hạ tầng hiện đại:** Hiểu rằng CloudFront không chỉ là CDN mà còn là nền tảng cốt lõi cho bảo mật và hiệu suất.
-- **Tích hợp AI:** Học cách ứng dụng **Multimodal GenAI** vào cơ sở tri thức doanh nghiệp bằng GraphRAG.
-- **Sự tiến hóa của DevOps:** Chuyển trọng tâm sang **GenAIOps** để quản lý vòng đời đặc thù của các ứng dụng AI.
-- **Ứng dụng thực tế:** Sử dụng các AI Agent vào quy trình lập trình hàng ngày để tăng hiệu quả viết code và tự động hóa tác vụ.
+#### 4. Multimodal GenAI & CloudFront Foundation
+- Building the new AI Application Stack with **Nova Embeddings** and **GraphRAG**.
+- Enhancing performance, security, and reliability of workloads using **Amazon CloudFront**.
+- Cost optimization strategies for edge-to-origin delivery.
 
 ---
 
-### Trải nghiệm cá nhân
-Việc tham dự **AWS Community Day 2026** tại văn phòng AWS HCM là một trải nghiệm mang tính bước ngoặt, mang lại sự kết hợp hoàn hảo giữa lý thuyết kiến trúc và demo kỹ thuật thực tế.
-
-#### Kết nối chuyên nghiệp
-- Việc trao đổi trực tiếp với các diễn giả từ GoTymeX, VPBank và Renova Cloud giúp tôi hiểu rõ hơn về khoảng cách giữa kiến thức học thuật và yêu cầu thực tế của doanh nghiệp.
-- Giao lưu cùng các bạn trong cộng đồng **FCAJ 2026** tạo nên một môi trường học tập cộng tác ngay từ những ngày đầu.
-
-#### Kiến thức chuyên sâu
-- Phiên thảo luận về "Kỷ nguyên Agentic" đã thay đổi cách tôi nhìn nhận về việc AI hỗ trợ trong vòng đời phát triển phần mềm (SDLC).
-- Các nội dung về **Multimodal search** và **Nova Embeddings** cung cấp một lộ trình rõ ràng để xây dựng các ứng dụng AI chuyên nghiệp trên nền tảng AWS.
-
-#### Truyền cảm hứng cho hành trình thực tập
-- Buổi kickoff chính thức của **FCAJ Bootcamp 2026** là nguồn động lực lớn. Việc tận mắt chứng kiến các dự án AWS thực tế kết hợp với Generative AI giúp tôi xác định rõ những kỹ năng cần tập trung rèn luyện trong suốt kỳ thực tập này.
+### Key Takeaways & Applying to Work
+- **Modern Infrastructure Mindset:** Understanding that CloudFront is not just for CDN but a foundation for security and performance.
+- **AI Integration:** Learning how to apply **Multimodal GenAI** to enterprise knowledge bases using GraphRAG.
+- **DevOps Evolution:** Shifting focus towards **GenAIOps** to manage the specific lifecycle of AI applications.
+- **Practical Application:** Utilizing AI Agents in the daily development workflow to boost coding efficiency and automation.
 
 ---
 
-> *Nhìn chung, sự kiện không chỉ là một buổi workshop đơn thuần mà là một nền tảng kết nối chuyên nghiệp, truyền cảm hứng cho tôi dấn thân sâu hơn vào hệ sinh thái AWS và các công nghệ AI hiện đại.*
+### Event Experience
+Attending the **AWS Community Day 2026** at the AWS HCM Office was a transformative experience. It provided a perfect blend of high-level architectural concepts and hands-on technical demos.
+
+#### Professional Networking
+- Engaging with speakers from GoTymeX, VPBank, and Renova Cloud helped bridge the gap between academic knowledge and industry expectations.
+- Connecting with peers in the **FCAJ 2026** cohort fostered a collaborative learning environment from day one.
+
+#### High-Level Knowledge
+- The "Agentic Era" session reshaped my perspective on how AI can assist in the SDLC (Software Development Life Cycle).
+- Discussions on **Multimodal search** and **Nova Embeddings** provided a clear roadmap for building production-grade AI applications on AWS.
+
+#### Inspiration for the Journey Ahead
+- The official kickoff of the **FCAJ Bootcamp 2026** served as a great motivator. Seeing real AWS projects implemented with Generative AI gave me a clear vision of the skills I need to acquire during this internship.
+
+---
+
+> *Overall, the event was more than just a workshop; it was a professional networking platform that inspired me to dive deeper into the AWS ecosystem and modern AI technologies.*
