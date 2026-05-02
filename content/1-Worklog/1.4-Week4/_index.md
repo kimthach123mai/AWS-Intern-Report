@@ -1,57 +1,43 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: "`r Sys.Date()`"
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
+
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Week 4 Objectives
+*	Deploy the web application source code to the EC2 server. 
+*	Configure Apache web server to host the application properly. 
+*	Understand file structure and permission management on Linux server. 
+*	Ensure the application can be accessed via public IP.
 
+### Tasks to be carried out this week
+|Day|Task|Start Date|Completion Date|Reference Material
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Prepare application source code on local machine </li><li>Review project structure (HTML, CSS, PHP, assets) </li><li>Compress source code for transfer </li>|30/03/2026|30/03/2026||
+|3|<ul style="margin:0"><li>Transfer source code to EC2 using SCP/WinSCP </li><li>Upload files to home directory</li><li>Verify file integrity after transfer </li>|31/03/2026|31/03/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|4|<ul style="margin:0"><li>Move source code to Apache root directory (/var/www/html) </li><li>Configure file permissions (chmod, chown) </li><li>Ensure Apache can read/write files </li></ul>|01/04/2026|01/04/2026||
+|5|<ul style="margin:0"><li>Configure Apache (httpd.conf if needed)</li><li>Restart Apache service </li><li>Fix common issues (403 Forbidden, permission denied)</li></ul>|02/04/2026|02/04/2026||
+|6|<ul style="margin:0"><li>Access application via EC2 Public IP </li><li>Test UI, routing, and page loading </li><li>Debug display errors and missing resources </li></ul>|03/04/2026|03/04/2026||
 
-### Week 4 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 4 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Acheievements
+* Successfully deployed the web application source code from local machine to EC2 server. 
+* Transferred files securely using SCP/WinSCP and verified data integrity after upload. 
+* Configured the correct file structure on the server: 
+  * Placed application files in /var/www/html
+  * Organized assets, scripts, and resources properly 
+* Managed file permissions effectively:
+  * Applied appropriate chmod and chown settings 
+  * Ensured Apache had necessary access rights 
+* Configured and restarted Apache server successfully: 
+  * Resolved common errors such as _403 Forbidden and Permission Denied_
+  * Verified that Apache service runs continuously 
+* Deployed a working web application accessible via Public IP: 
+  * Verified UI rendering 
+  * Ensured static resources (CSS, JS, images) load correctly 
+* Identified and fixed common deployment issues: 
+  * Broken file paths 
+  * Incorrect permissions 
+  * Missing dependencies 
+* Gained practical experience in real-world deployment process from local to cloud environment. 

@@ -1,59 +1,51 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.8. </b> "
+title : "Worklog tuần 8"
+date :  "`r Sys.Date()`" 
+weight : 8
+chapter : false
+pre : "<b>1.8. </b>"
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu tuần 8
+* Kiểm tra toàn bộ hệ thống và đảm bảo tất cả chức năng hoạt động đúng. 
+* Sửa các lỗi còn lại và tối ưu hệ thống. 
+* Hoàn thành tài liệu và báo cáo thực tập. 
+* Đánh giá kết quả học tập và tổng kết quá trình thực tập. 
 
+### Công việc thực hiện trong tuần
+|Thứ|Công việc|Ngày bắt đầu|Ngày hoàn thành|
+|:-:|---|:-:|:-:|
+|2|<ul style="margin:0"><li>Test toàn bộ hệ thống</li><li>Kiểm tra tất cả chức năng</li></ul>|27/04/2026|27/04/2026|
+|3|<ul style="margin:0"><li>Tìm và sửa lỗi còn lại</li><li>Fix lỗi UI và backend</li><li>Cải thiện UX</li></ul>|28/04/2026|28/04/2026|
+|4|<ul style="margin:0"><li>Tối ưu hệ thống</li><li>Dọn code thừa</li><li>Tối ưu query</li></ul>|29/04/2026|29/04/2026|
+|5|<ul style="margin:0"><li>Viết tài liệu project</li><li>Mô tả kiến trúc hệ thống</li><li>Chụp hình minh họa</li></ul>|30/04/2026|30/04/2026|
+|6|<ul style="margin:0"><li>Hoàn thành báo cáo thực tập</li><li>Kiểm tra và hoàn thiện bài nộp</li></ul>|01/05/2026|01/05/2026|
 
-### Mục tiêu tuần 8:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được
+* Hoàn thành kiểm thử toàn bộ hệ thống: 
+  * Kiểm tra frontend, backend, database và S3 
+  * Đảm bảo các chức năng chính (CRUD, upload, hiển thị) hoạt động đúng 
+* Phát hiện và xử lý các lỗi còn lại: 
+  * Fix lỗi giao diện 
+  * Sửa lỗi backend nhỏ 
+  * Cải thiện trải nghiệm người dùng 
+* Tối ưu hiệu năng hệ thống: 
+  * Loại bỏ code dư thừa 
+  * Cải thiện truy vấn database 
+  * Giảm tài nguyên không cần thiết 
+* Hoàn thiện hệ thống web chạy trên cloud: 
+  * EC2 (server) 
+  * RDS (database) 
+  * S3 (lưu trữ file)
+→ Hệ thống hoạt động ổn định 
+* Hoàn thành tài liệu project: 
+  * Mô tả kiến trúc hệ thống rõ ràng 
+  * Trình bày chi tiết quá trình triển khai 
+  * Có hình ảnh minh họa 
+* Hoàn thành báo cáo thực tập: 
+  * Worklog 8 tuần 
+  * Mô tả kỹ thuật hệ thống 
+  * Phần đánh giá cá nhân 
+* Nâng cao kỹ năng: 
+  * Triển khai hệ thống cloud 
+  * Debug và xử lý lỗi 
+  * Viết tài liệu và báo cáo

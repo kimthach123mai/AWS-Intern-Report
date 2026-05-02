@@ -1,58 +1,48 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.6. </b> "
+title : "Worklog tuần 6"
+date :  "`r Sys.Date()`" 
+weight : 6
+chapter : false
+pre : "<b>1.6. </b>"
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu tuần 6
+* Phát hiện và xử lý lỗi giữa EC2–RDS và ứng dụng web. 
+* Tối ưu hiệu năng hệ thống và truy vấn database. 
+* Cải thiện độ ổn định của hệ thống. 
+* Tích lũy kinh nghiệm debug hệ thống thực tế trên cloud. 
 
+### Công việc thực hiện trong tuần
+|Thứ|Công việc|Ngày bắt đầu|Ngày hoàn thành|Nguồn tài liệu
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Phân tích lỗi kết nối EC2–RDS</li><li>Kiểm tra Security Group</li><li>Xác nhận endpoint, port, tài khoản</li></ul>|13/04/2026|13/04/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|3|<ul style="margin:0"><li>Fix lỗi kết nối DB</li><li>Sửa config PHP</li><li>Bật debug</li></ul>|14/04/2026|14/04/2026|PHP Docs|
+|4|<ul style="margin:0"><li>Fix lỗi encoding</li><li>Sửa lỗi hiển thị dữ liệu</li><li>Đồng bộ DB và app</li></ul>|15/04/2026|15/04/2026|MySQL Docs|
+|5|<ul style="margin:0"><li>Tối ưu query SQL</li><li>Test tốc độ truy vấn</li><li>Cải thiện index</li></ul>|16/04/2026|16/04/2026||
+|6|<ul style="margin:0"><li>Test toàn hệ thống</li><li>Tìm lỗi còn lại</li><li>Ghi lại cách xử lý</li></ul>|17/04/2026|17/04/2026||
 
-### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được
+* Phát hiện và xử lý thành công nhiều lỗi thực tế trong hệ thống, đặc biệt là kết nối EC2–RDS. 
+* Fix các lỗi quan trọng liên quan database: 
+  * Lỗi timeout do Security Group cấu hình sai 
+  * Lỗi “Access Denied” do sai tài khoản hoặc quyền 
+  * Đảm bảo kết nối ổn định giữa web và database 
+* Nâng cao kỹ năng debug: 
+  * Bật hiển thị lỗi trong PHP 
+  * Sử dụng log để xác định nguyên nhân lỗi 
+  * Áp dụng quy trình debug có hệ thống 
+* Xử lý lỗi encoding: 
+  * Chuẩn hóa UTF-8 giữa DB và ứng dụng 
+  * Fix lỗi hiển thị tiếng Việt 
+  * Đảm bảo dữ liệu hiển thị đúng 
+* Tối ưu hiệu năng database: 
+  * Viết lại query chưa tối ưu 
+  * Giảm truy vấn dư thừa 
+  * Cải thiện tốc độ xử lý 
+* Cải thiện độ ổn định hệ thống: 
+  * Loại bỏ lỗi runtime 
+  * Hệ thống hoạt động mượt hơn 
+* Test toàn bộ hệ thống: 
+  * Kiểm tra giao diện, backend và database 
+  * Đảm bảo chức năng hoạt động đúng 
+* Ghi lại các lỗi và cách xử lý: 
+  * Tạo tài liệu tham khảo cho việc phát triển sau này

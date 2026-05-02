@@ -1,57 +1,48 @@
 ---
-title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.5. </b> "
+title : "Week 5 Worklog"
+date :  "`r Sys.Date()`" 
+weight : 5
+chapter : false
+pre : "<b>1.5. </b>"
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Week 5 Objectives
+* Deploy and configure Amazon RDS (MySQL) for cloud database usage. 
+* Migrate database from local environment to RDS. 
+* Establish connection between EC2 and RDS. 
+* Integrate database into the web application and test CRUD operations. 
 
+### Tasks to be carried out this week
+|Day|Task|Start Date|Completion Date|Reference Material
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Create RDS MySQL instance</li><li>Configure instance type (db.t3.micro)</li><li>Set username, password, DB name</li><li>Enable public access (for testing)</li></ul>|06/04/2026|06/04/2026|AWS Console|
+|3|<ul style="margin:0"><li>Configure Security Group for RDS</li><li>Open port 3306 for EC2 access</li><li>Whitelist EC2 security group</li><li>Retrieve RDS endpoint</li></ul>|07/04/2026|07/04/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|4|<ul style="margin:0"><li>Export database from local (mysqldump)</li><li>Import database into RDS</li><li>Verify tables and data</li></ul>|08/04/2026|08/04/2026|MySQL Docs|
+|5|<ul style="margin:0"><li>Update application config (DB_HOST, DB_USER, DB_PASS)</li><li>Connect PHP application to RDS</li><li>Test connection and queries</li></ul>|09/04/2026|09/04/2026|PHP Docs|
+|6|<ul style="margin:0"><li>Test full CRUD operations (Create, Read, Update, Delete)</li><li>Debug connection errors (timeout, access denied)</li><li>Optimize connection settings</li></ul>|10/04/2026|10/04/2026||
 
-### Week 5 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 5 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Acheievements
+* Successfully created and configured an Amazon RDS MySQL instance with appropriate settings for development and testing. 
+* Configured networking and security properly: 
+  * Opened port 3306 for database access 
+  * Allowed EC2 instance to communicate with RDS via Security Group 
+  * Understood how AWS isolates database services 
+* Migrated database from local environment to cloud: 
+  * Exported database using mysqldump 
+  * Imported data into RDS without data loss 
+  * Verified tables, relationships, and data integrity 
+* Established successful connection between EC2 and RDS: 
+  * Used RDS endpoint for remote connection 
+  * Updated application configuration correctly 
+* Integrated database into the web application: 
+  * Connected PHP backend to RDS 
+  * Executed SQL queries successfully 
+* Verified full CRUD functionality: 
+  * Create new records 
+  * Retrieve and display data 
+  * Update existing records 
+  * Delete records 
+* Identified and resolved common database connection issues: 
+  * Connection timeout due to Security Group misconfiguration 
+  * Access denied errors due to incorrect credentials 
+  * Charset and encoding inconsistencies 
+* Gained practical experience in deploying and managing cloud-based databases in a real-world scenario.

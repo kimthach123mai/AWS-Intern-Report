@@ -1,59 +1,42 @@
 ---
-title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 4"
+date: "`r Sys.Date()`"
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu tuần 4
+*	Triển khai source code ứng dụng web lên EC2. 
+*	Cấu hình Apache để host ứng dụng. 
+*	Hiểu cấu trúc thư mục và phân quyền trên server Linux. 
+*	Đảm bảo ứng dụng truy cập được qua IP public. 
 
+### Công việc thực hiện trong tuần
+|Thứ|Công việc|Ngày bắt đầu|Ngày hoàn thành|Nguồn tài liệu
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Chuẩn bị source code trên máy local</li><li>Kiểm tra cấu trúc project</li><>Nén source code để upload</li>|30/03/2026|30/03/2026||
+|3|<ul style="margin:0"><li>Upload source code lên EC2 bằng SCP/WinSCP </li><li>Kiểm tra file sau khi upload</li><li>Kiểm tra tính toàn vẹn của tệp sau khi chuyển.</li>|31/03/2026|31/03/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|4|<ul style="margin:0"><li>Copy source vào /var/www/html  </li><li>Cấu hình phân quyền file (chmod, chown) </li><li>Đảm bảo Apache truy cập được </li></ul>|01/04/2026|01/04/2026||
+|5|<ul style="margin:0"><li>Cấu hình Apache (httpd.conf if needed)</li><li>Khởi động lại Apache service </li><li>Fix lỗi 403, permission</li></ul>|02/04/2026|02/04/2026||
+|6|<ul style="margin:0"><li>Truy cập web qua IP public </li><li>Test giao diện và chức năng  </li><li>Fix lỗi hiển thị</li></ul>|03/04/2026|03/04/2026||
 
-### Mục tiêu tuần 4:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 4:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được
+* Triển khai thành công source code từ máy local lên EC2. 
+* Upload file bằng SCP/WinSCP và kiểm tra dữ liệu sau khi upload. 
+* Cấu hình cấu trúc thư mục trên server: 
+  * Đặt source tại /var/www/html 
+  * Sắp xếp file hợp lý 
+* Quản lý phân quyền file hiệu quả: 
+  * Sử dụng chmod, chown đúng cách 
+  * Đảm bảo Apache có quyền truy cập 
+* Cấu hình và restart Apache thành công: 
+  * Fix lỗi _403 Forbidden, Permission denied_
+  * Đảm bảo service hoạt động ổn định
+* Deploy web thành công và truy cập qua IP public: 
+  * Giao diện hiển thị đúng 
+  * CSS, JS, hình ảnh load đầy đủ 
+* Phát hiện và xử lý các lỗi phổ biến: 
+  * Sai đường dẫn file 
+  * Lỗi phân quyền 
+  * Thiếu resource 
+* Có kinh nghiệm thực tế trong việc deploy ứng dụng từ local lên cloud.

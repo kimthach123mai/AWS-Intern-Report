@@ -1,57 +1,48 @@
 ---
-title: "Week 1 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.1. </b> "
+title : "Week 1 Worklog"
+date :  "`r Sys.Date()`" 
+weight : 1
+chapter : false
+pre : "<b>1.1. </b>"
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Week 1 Objectives
+* Get familiar with the internship environment and members of the First Cloud Journey program. 
+* Understand the fundamentals of AWS and its main service categories. 
+* Learn how to use AWS Management Console and AWS CLI. 
+* Set up a basic AWS environment for further development.
 
+### Tasks to be carried out this week
+|Day|Task|Start Date|Completion Date|Reference Material
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Learn overview of AWS</li><li>Get acquainted with mentors and FCJ members</li><li>Read internship rules and regulations</li><li>Understand project requirements and timeline</li>|09/03/2026|09/03/2026|[FCJ Guidelines](https://cloudjourney.awsstudygroup.com/)|
+|3|<ul style="margin:0"><li>Learn overview of AWS</li><li>Study service categories:<ul><li>Compute (EC2, Lambda)</li><li>Storage (S3, EBS)</li><li>Networking (VPC)</li><li>Database (RDS)</li></ul></li><li>Understand cloud architecture basics</li>|10/03/2026|10/03/2026|[FCJ Guidelines](https://cloudjourney.awsstudygroup.com/)|
+|4|<ul style="margin:0"><li>Create AWS Free Tier account</li><li>Explore AWS Management Console</li><li>Install and configure AWS CLI</li><li>Practice configuring CLI and execute basic commands</li>|11/03/2026|11/03/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|5|<ul style="margin:0"><li>Study EC2 fundamentals:<ul><li>Instance types</li><li>AMI</li><li>EBS storage</li></ul></li><li>Learn SSH connection methods</li><li>Understand Elastic IP and Public IP</li></ul>|12/03/2026|12/03/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|6|<ul style="margin:0"><li>Practice EC2 deployment<ul><li>Launch EC2 instance (Amazon Linux 2)</li><li>Create key pair (.pem)</li><li>Configure Security Group (port 22, 80)</li><li>Connect via SSH</li><li>Attach EBS volume</li></ul></li>|13/03/2026|13/03/2026|AWS Console|
 
-### Week 1 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 1 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Acheievements
+* Gained a clear understanding of cloud computing concepts and AWS architecture.
+* Identified and understood key AWS service groups:
+  * Compute (EC2)
+  * Storage (S3, EBS)
+  * Networking (VPC)
+  * Database (RDS) 
+* Successfully created and configured an AWS Free Tier account. 
+* Became familiar with AWS Management Console:
+  * Navigating services
+  * Managing resources
+  * Understanding interface layout 
+* Installed and configured AWS CLI:
+  * Configured Access Key and Secret Key
+  * Set default region
+  * Verified CLI connectivity
+* Performed basic operations using AWS CLI: 
+  * Retrieve account and configuration information 
+  * List available regions 
+  * Query EC2 resources 
+  * Manage key pairs 
+* Successfully deployed an EC2 instance: 
+  * Configured Security Group rules 
+  * Connected via SSH 
+  * Attached and verified EBS storage 
+* Developed the ability to use both AWS Console and CLI in parallel for resource management.

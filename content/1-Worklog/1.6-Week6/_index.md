@@ -1,57 +1,47 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.6. </b> "
+title : "Week 6 Worklog"
+date :  "`r Sys.Date()`" 
+weight : 6
+chapter : false
+pre : "<b>1.6. </b>"
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Week 6 Objectives
+* Identify and fix issues related to EC2–RDS connection and web application errors. 
+* Optimize system performance and database queries. 
+* Improve system stability and reliability. 
+* Gain hands-on experience in debugging real-world cloud systems. 
 
+### Tasks to be carried out this week
+|Day|Task|Start Date|Completion Date|Reference Material
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Analyze connection issues between EC2 and RDS</li><li>Check Security Group configuration</li><li>Verify endpoint, port, and credentials</li></ul>|13/04/2026|13/04/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|3|<ul style="margin:0"><li>Fix database connection errors (timeout, access denied)</li><li>Adjust DB config in PHP</li><li>Enable error reporting for debugging</li></ul>|14/04/2026|14/04/2026|PHP Docs|
+|4|<ul style="margin:0"><li>Resolve charset and encoding issues (UTF-8)</li><li>Fix data display errors on UI</li><li>Ensure compatibility between DB and application</li></ul>|15/04/2026|15/04/2026|MySQL Docs|
+|5|<ul style="margin:0"><li>Optimize SQL queries (reduce redundancy, improve performance)</li><li>Test response time of queries</li><li>Improve database indexing if needed</li></ul>|16/04/2026|16/04/2026||
+|6|<ul style="margin:0"><li>Perform full system testing (UI + backend + DB)</li><li>Identify remaining bugs</li><li>Document issues and solutions</li></ul>|17/04/2026|17/04/2026||
 
-### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Acheievements
+* Successfully identified and resolved multiple real-world issues in the system, especially related to EC2–RDS connectivity. 
+* Fixed critical database connection problems: 
+  * Resolved timeout issues caused by incorrect Security Group configuration 
+  * Fixed “Access Denied” errors due to incorrect credentials or permissions 
+  * Ensured stable connection between application and database 
+* Improved debugging skills: 
+  * Enabled detailed error reporting in PHP 
+  * Used logs and error messages to trace issues effectively 
+  * Applied systematic debugging approach 
+* Resolved character encoding issues: 
+  * Standardized UTF-8 encoding across database and application 
+  * Fixed incorrect display of Vietnamese characters 
+  * Ensured consistent data handling 
+* Optimized database performance: 
+  * Refactored inefficient SQL queries 
+  * Reduced redundant queries 
+  * Improved response time for data retrieval 
+* Enhanced system stability: 
+  * Eliminated major runtime errors 
+  * Improved reliability under normal usage 
+* Conducted full system testing: 
+  * Verified UI, backend logic, and database operations 
+  * Ensured all features function correctly 
+* Documented common issues and solutions, creating a valuable reference for future development and troubleshooting. 

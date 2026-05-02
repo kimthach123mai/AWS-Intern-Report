@@ -1,59 +1,44 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 3"
+date: "`r Sys.Date()`"
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
+
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu tuần 3
+*	Triển khai và cấu hình EC2 để chạy ứng dụng web. 
+*	Làm quen môi trường server Linux và lệnh cơ bản. 
+*	Cài đặt và cấu hình web server (Apache) và PHP. 
+*	Thiết lập kết nối ổn định giữa máy local và server cloud.
 
+### Công việc thực hiện trong tuần
+|Thứ|Công việc|Ngày bắt đầu|Ngày hoàn thành|Nguồn tài liệu
+|:-:|---|:-:|:-:|:-:|
+|2|<ul style="margin:0"><li>Tạo EC2 instance (Amazon Linux 2)</li><li>Chọn instance phù hợp (t2.micro) </li><li>Tạo key pair để SSH</li><li>Cấu hình Security Group</li>|23/03/2026|23/03/2026|AWS Console|
+|3|<ul style="margin:0"><li>SSH vào EC2 từ local</li><li>Thực hành lệnh Linux cơ bản</li><li>Update hệ thống</li>|24/03/2026|24/03/2026||
+|4|<ul style="margin:0"><li>Cài Apache (httpd)</li><li>Bắt đầu và bật dịch vụ Apache</li><li>Kiểm tra bằng IP public</li></ul>|25/03/2026|25/03/2026|[AWS Docs](https://cloudjourney.awsstudygroup.com/)|
+|5|<ul style="margin:0"><li>Cài PHP và extension</li><li>Cấu hình Apache chạy PHP</li><li>Tạo file test PHP (info.php)</li></ul>|26/03/2026|26/03/2026||
+|6|<ul style="margin:0"><li>Test web server</li><li>Kiểm tra hiển thị web</li><li>Fix lỗi cơ bản</li></ul>|27/03/2026|27/03/2026||
 
-### Mục tiêu tuần 3:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 3:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được
+*	Triển khai thành công EC2 sử dụng Amazon Linux 2 với cấu hình đầy đủ. 
+*	Cấu hình Security Group cho phép: 
+  *	SSH (port 22) 
+  *	HTTP (port 80) 
+  *	HTTPS (port 443) 
+*	Kết nối thành công từ máy local đến EC2 bằng SSH thông qua key pair. 
+*	Làm quen môi trường Linux server: 
+  *	Di chuyển thư mục 
+  *	Quản lý quyền file 
+  *	Sử dụng lệnh hệ thống 
+*	Cài đặt và cấu hình Apache: 
+  *	Bật service tự động chạy 
+  *	Kiểm tra hoạt động qua IP public 
+*	Cài đặt PHP và tích hợp với Apache: 
+  *	Test file PHP thành công 
+  *	Đảm bảo server xử lý được PHP 
+*	Xác nhận môi trường server hoạt động ổn định: 
+  *	Web server phản hồi tốt 
+  *	Xử lý được các lỗi cơ bản 
+*	Tạo nền tảng vững chắc cho việc deploy ứng dụng hoàn chỉnh ở các tuần tiếp theo.
